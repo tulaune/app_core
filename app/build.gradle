@@ -48,7 +48,7 @@ android {
 
 dependencies {
     api project(':base')
-    //api 'com.github.pedroSG94.rtmp-rtsp-stream-client-java:rtplibrary:1.9.5'
+
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0'
@@ -57,4 +57,5 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.3'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.3'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    //api 'com.github.pedroSG94.rtmp-rtsp-stream-client-java:rtplibrary:1.9.5'
 }

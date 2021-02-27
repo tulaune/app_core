@@ -49,8 +49,6 @@ dependencies {
     //kotlin
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
-//    api 'androidx.databinding:databinding-compiler:4.2.0-alpha09'
-//    api 'com.android.databinding:compiler:3.1.4'
 
     //retrofit2
     api 'com.squareup.retrofit2:retrofit:2.7.2'
@@ -120,11 +118,6 @@ dependencies {
     api 'com.shawnlin:number-picker:2.4.6'
 
 
-    //Crashlytics
-//    api 'com.google.firebase:firebase-crashlytics:17.3.1'
-//    api 'com.google.firebase:firebase-crashlytics-ndk:17.3.1'
-
-
     //emoticongif
     api 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
 
@@ -132,6 +125,9 @@ dependencies {
     //noinspection GradleCompatible
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //live stream
+    api 'com.annimon:stream:1.2.1'
 
     //firebase for appCall
 //    api 'org.webrtc:google-webrtc:1.0.30039'
@@ -145,8 +141,12 @@ dependencies {
 //    api 'com.google.android.gms:play-services-location:18.0.0'
 //    api 'com.google.android.libraries.places:places:2.4.0'
 
-    //live stream
-    api 'com.annimon:stream:1.2.1'
+
+
+    //Crashlytics
+//    api 'com.google.firebase:firebase-crashlytics:17.3.1'
+//    api 'com.google.firebase:firebase-crashlytics-ndk:17.3.1'
+
 
 
     //zxing scan QRcode
