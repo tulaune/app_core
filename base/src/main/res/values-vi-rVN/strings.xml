@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="title_dn_live">Tuyển dụng trực tuyến</string>
+
+    <string name="piepjob_footer_user_1">TD trực tuyến</string>
+    <string name="piepjob_footer_user_news">Tin tức</string>
+    <string name="piepjob_footer_user_2">Tìm việc</string>
+
+    <string name="piepjob_footer_user_4">Tài khoản</string>
+    <string name="piepjob_footer_business_4">Doanh Nghiệp</string>
+
+    <string name="all_txt_turn_back">Quay lại</string>
+    <string name="all_txt_no">Không</string>
+    <string name="all_txt_yes">Có</string>
+    <string name="all_txt_resend">Gửi lại</string>
+    <string name="all_txt_delete">Xóa</string>
+
+    <!--Key login app-->
+    <string name="signup_start">Start</string>
+    <string name="signup_this_device_has_use_for">Your smartphone has been registered for the following account:
+    </string>
+    <string name="signup_dialog_detect_change_account">Tài khoản khác</string>
+    <string name="signup_dialog_detect_nextstep">OK, đi tiếp</string>
+    <string name="signup_next_step">Đi tiếp</string>
+    <string name="signup_nickname_input">Nhập nickname của bạn</string>
+    <string name="signup_nickname_alert">The name must be at least %1$d characters long</string>
+    <string name="signup_3_number_input">Nhập 3 số cá nhân của bạn</string>
+    <string name="signup_private_number_alert">Please enter your 3 personal number</string>
+    <string name="signup_why_need_3_number">
+        <u>Tại sao cần 3 số cá nhân?</u>
+    </string>
+    <string name="signup_why_need_3_number_title">3 số xác nhận để làm gì?</string>
+    <string name="signup_why_need_3_number_description">Việc sử dụng trùng tên, trùng nickname là chuyện không thể tránh khỏi. Để bạn dùng được nickname yêu thích của mình, PiepMe cần thêm 3 số cá nhân để đảm bảo quyền sở hữu trong trường hợp dùng tên hoặc Nickname giống nhau.    </string>
+    <string name="signup_why_need_3_number_yes_iknow">OK, đã hiểu</string>
+    <string name="signup_forget_number">
+        <u>Bạn quên số của mình?</u>
+    </string>
+    <string name="signup_random_3_number_unique">
+        <u>Xin 3 số chưa bị trùng</u>
+    </string>
+    <string name="signup_piepme_choose_3_number">PiepMe has suggested the following 3 number:</string>
+    <string name="signup_register_error">Registration failed</string>
+    <string name="signup_nickname_and_3_number_for_account">Nickname và 3 mã số cá nhân của Bạn đang dành cho tài khoản này</string>
+    <string name="signup_nickname_and_3_number_not_exist">Nickname và 3 số của bạn chưa có ai sử dụng. Bạn có muốn tạo tài khoản mới?</string>
+    <string name="signup_nickname_and_3_number_isfull">Tất cả các số đã được sử dụng, Bạn có thể đổi sang Nickname mới và thử với 3 số khác.</string>
+    <string name="signup_nickname_and_3_number_confirm_new">It creates a new PiepMe account. Would you like to create a
+        new account?
+    </string>
+    <string name="signup_who_in_list">Bạn là ai trong danh sách này:</string>
+    <string name="signup_yes_create_new">Yes, a new account</string>
+    <string name="signup_select_country">Chọn quốc gia</string>
+    <string name="signup_code_otp_send_success">Đã gửi mã số thành công</string>
+    <string name="signup_code_otp_wait_24h">Bạn đã gửi OTP trong 24 tiếng trước đó hoặc đã xác nhận sai 3 lần, vui lòng thử lại sau %.</string>
+
+    <string name="piepme_setting_sercu_sent_otp_to_option_other">PiepMe sends OTP number</string>
+    <string name="piepme_setting_sercu_sent_option_phone_number">Via SMS to your mobile numbert</string>
+    <string name="profile_edit_your_security_contact">- People for your own safety</string>
+    <string name="piepme_setting_sercu_action_confirm_from_phone">Nhập mã xác nhận từ tin nhắn</string>
+    <string name="piepme_setting_sercu_not_enough_person">Bạn chưa đủ cá nhân bảo mật</string>
+    <string name="piepme_setting_sercu_phone_number_null">Bạn chưa nhập số điện thoại bảo mật</string>
+
+    <string name="signup_captcha">Bạn nhập mã captcha bị sai. Bạn vui lòng nhập lại!</string>
+
+    <string name="pieper_alert_warning_login_ca">It is a commercial account. Please download PiepMe SE!</string>
+    <string name="signup_captcha_failed_3">Bạn vui lòng thử lại sau!</string>
+    <string name="signup_captcha_failed">Bạn nhập mã captcha bị sai. Bạn vui lòng nhập lại!</string>
+    <string name="signup_sending_otp_not_available_alert">To determine an owner\'s account, PiepMe will send the OTP
+        Number to 3 people defined in the contact list for the list “People for Your Safety”.
+        \n\nThe entered account does not have any people who can get the OTP number from PiepMe. The prerequisite is not
+        fulfilled in order to restore the account.
+        \n\nWould you like to
+        create a new account?
+    </string>
+
+
+    <string name="signup_code_otp_input">Nhập mã xác nhận, mã thứ %:</string>
+    <string name="signup_code_otp_phone_input">Please enter the OTP:</string>
+    <string name="signup_code_otp_incorrect">Mã số của bạn không chính xác</string>
+    <string name="signup_code_otp_is_expire">Mã OTP vừa nhập đã hết hạn. Bạn vui lòng kiểm tra và thử lại.</string>
+    <string name="signup_code_otp_over_and_try_later">It failed at %1$s time. Please try again in %2$s</string>
+    <string name="signup_code_otp_success_again">Mã số này đã được xác nhận rồi</string>
+    <string name="signup_code_otp_confirm_success">Xác nhận mã số thành công</string>
+
+    <string name="profile_affiliate_phone">Điện thoại</string>
+    <string name="profile_affiliate_email">Email</string>
+    <string name="profile_cmnd">Hình giấy CMND</string>
+    <string name="input_confirm_code">Nhập mã xác nhận</string>
+    <string name="resend_request_code">Request again</string>
+    <string name="request_code">Request code</string>
+
+    <string name="piepxe_warning_input_phone">Vui lòng nhập số điện thoại</string>
+    <string name="apply_content">Nộp CV nhanh</string>
+    <string name="pieper_player_view_more">Xem thêm</string>
+    <string name="pieper_player_view_less">Thu gọn</string>
+
+    <string name="status_find_a_job">Mở để nhà tuyển dụng tìm được hồ sơ của bạn\n(Thông tin cá nhân hiển thị chỉ khi bạn đồng ý tham gia phỏng vấn)</string>
+
+    <string name="profile_edit_nickname">Họ và tên</string>
+    <string name="profile_edit_3digit">Số cá nhân</string>
+    <string name="profile_edit_year_of_birth">Năm sinh</string>
+    <string name="profile_edit_language">Ngôn ngữ</string>
+
+    <string name="profile_friend_search_input_nickname">Nhập nickname / số điện thoại</string>
+
+    <string name="profile_edit_alert_update_fail_because_nickname_or_secure">Cập nhật thất bại do Nickname và Số bảo mật đã được dùng!</string>
+
+    <string name="piepme_setting_sercu_des_update_name">* Chỉ được phép thay đổi 1 lần trong vòng %d ngày</string>
+    <string name="piepme_setting_limit_character">* Họ tên phải từ 4 ký tự trở lên</string>
+    <string name="profile_public_info">Khám phá có thể thấy bạn</string>
+    <string name="pieper_edit_pieper">Chỉnh sửa</string>
+
+    <string name="connect_job">Nghề nghiệp</string>
+    <string name="profile_input_hashtag">Nhập từ khóa</string>
+    <string name="change_account">Chọn tài khoản</string>
+
+    <string name="all_txt_exp">Kinh nghiệm:</string>
+    <string name="all_txt_date_format_hour_min">%1$s hours %2$s minutes</string>
+    <string name="all_txt_date_format_min">%1$s minutes</string>
+    <string name="all_txt_tags">Từ khóa</string>
+    <string name="all_txt_send">Gửi</string>
+
+    <string name="detail_save">Lưu tin</string>
+    <string name="detail_apply_cv">Nộp CV</string>
+    <string name="intro_bussiness">Giới thiệu về công ty</string>
+    <string name="realm_of_activity">Lĩnh vực hoạt động</string>
+    <string name="duration_of_activity">Số năm hoạt động</string>
+    <string name="duration_detail">Thời hạn</string>
+    <string name="times_work">Toàn thời gian</string>
+    <string name="interest">Quyền lợi</string>
+    <string name="skill_detail">Kỹ năng chuyên môn</string>
+    <string name="duration_exp_skill">Số năm kinh nghiệm</string>
+    <string name="interview_calendar_title">Lịch phỏng vấn</string>
+    <string name="txt_live">TRỰC TUYẾN</string>
+    <string name="txt_miss">Lỡ hẹn</string>
+    <string name="txt_recruitment">Tuyển dụng</string>
+    <string name="txt_interviewed">Đã PV</string>
+    <string name="candidate_txt">Ứng viên</string>
+    <string name="waiting_for_cv">Chờ nộp CV</string>
+    <string name="txt_schedule">Lịch hẹn</string>
+    <string name="reject_txt">Từ chối</string>
+    <string name="txt_job">Công việc</string>
+    <string name="txt_salary">Mức lương mong muốn</string>
+
+    <string name="tag_has_choose">Từ khóa được chọn</string>
+    <string name="tag_suggest">Gợi ý</string>
+    <string name="all_txt_add_new_tag">Thêm từ khóa</string>
+
+
+    <!-- Gallery-->
+    <string name="piepme_gallery_title">Thư viện</string>
+    <string name="piepme_gallery_title_tab_image">Hình ảnh</string>
+    <string name="piepme_gallery_title_tab_video">Video</string>
+    <string name="piepme_gallery_mess_large_size">Video này quá lớn!</string>
+
+    <string name="message_no_granted_permision">Bạn chưa cấp quyền truy cập bộ nhớ</string>
+    <string name="message_gallery_send">Gửi (%d)</string>
+    <string name="signup_now">ĐĂNG KÝ NGAY</string>
+    <string name="insert_phone_number">NHẬP SỐ ĐIỆN THOẠI</string>
+    <string name="insert_email">NHẬP EMAIL</string>
+    <string name="profile_edit_where_you_at">Hiện đang sống ở</string>
+
+    <string name="send_code">GỬI MÃ</string>
+    <string name="your_phone_number">Số điện thoại của bạn</string>
+    <string name="usre_name">Họ tên của bạn</string>
+    <string name="confirm_otp_fail">Xác nhận OTP không thành công</string>
+
+    <string name="profile_main_app_version">ttJOBS Phiên bản</string>
+    <string name="profile_main_language">Thay đổi ngôn ngữ</string>
+    <string name="txt_all_introduce_content">Nội dung giới thiệu…</string>
+    <string name="profile_introduce">Giới thiệu bản thân</string>
+
+    <string name="profile_job_title">Công việc</string>
+    <string name="profile_yourjob">Cấp bậc công việc</string>
+    <string name="profile_job_time_title">Công việc</string>
+    <string name="profile_salary_title">Mức lương mong muốn</string>
+    <string name="profile_skill_title">Kỹ năng chuyên môn</string>
+    <string name="profile_job_exp_title">Số năm kinh nghiệm</string>
+    <string name="txt_all_add_tags">Thêm từ khoá</string>
+    <string name="profile_job_time">Hình thức làm việc</string>
+    <string name="profile_graduates">Bằng cấp</string>
+    <string name="profile_occupations">Nghề nghiệp mong muốn</string>
+    <string name="profile_choose_service">Dịch vụ muốn làm</string>
+    <string name="profile_choose_time_job">Hình thức làm việc</string>
+    <string name="profile_job_area">Tìm việc ở khu vực</string>
+    <string name="profile_job_location">Khu vực / nơi làm việc</string>
+
+
+    <string name="material_calendar_monday">M</string>
+    <string name="material_calendar_tuesday">T</string>
+    <string name="material_calendar_wednesday">W</string>
+    <string name="material_calendar_thursday">T</string>
+    <string name="material_calendar_friday">F</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">S</string>
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+    <array name="material_calendar_months_array">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </array>
+
+
+    <!-- td-->
+    <string name="please_error">Có sự cố xảy ra, vui lòng thử lại sau.</string>
+    <string name="channel_follow_label">Bạn vừa thêm kênh của doanh nghiệp:</string>
+    <string name="profile_your_security_contact">Các cá nhân bảo mật</string>
+    <string name="piepme_setting_sercu_phone_number">Hoặc bảo mật bằng số điện thoại</string>
+    <string name="txt_resend">Gửi lại</string>
+
+    <string name="txt_ok">OK</string>
+    <string name="txt_no">Không</string>
+    <string name="txt_yes">Có</string>
+    <string name="txt_find_more">Tìm thêm</string>
+    <string name="txt_finish">Hoàn tất</string>
+    <string name="txt_cancel">Hủy</string>
+    <string name="txt_try_again">Thử lại lần nữa</string>
+    <string name="txt_confirm">Xác nhận</string>
+    <string name="txt_warning_update_version">Phiên bản PiepMe hiện tại của bạn đã lỗi thời! Vui lòng cập nhật phiên bản mới.</string>
+    <string name="txt_update">Cập nhật</string>
+    <string name="txt_turn_back">Quay lại</string>
+
+    <string name="signup_detect_simulator">PiepMe không chấp nhận tài khoản ảo</string>
+    <string name="signup_code_otp_still_valid">Mã xác nhận OTP bạn gửi trước đây vẫn còn giá trị sử dụng. Bạn hãy liên lạc với các cá nhân bảo mật của mình để nhận các mã trên.</string>
+    <string name="txt_go_forward">Đi tiếp</string>
+    <string name="pieper_warning_login_ca">Tài khoản của Bạn hiện là tài khoản DN, Bạn vui lòng tải và chạy ứng dụng PiepMe SE.</string>
+    <string name="signup_term_of_use">Điều khoản sử dụng</string>
+    <string name="month_01">Tháng 1</string>
+    <string name="month_02">Tháng 2</string>
+    <string name="month_03">Tháng 3</string>
+    <string name="month_04">Tháng 4</string>
+    <string name="month_05">Tháng 5</string>
+    <string name="month_06">Tháng 6</string>
+    <string name="month_07">Tháng 7</string>
+    <string name="month_08">Tháng 8</string>
+    <string name="month_09">Tháng 9</string>
+    <string name="month_10">Tháng 10</string>
+    <string name="month_11">Tháng 11</string>
+    <string name="month_12">Tháng 12</string>
+    <string name="piepjob_input_phone">Số điện thoại của bạn</string>
+    <string name="business_type_bus">Doanh nghiệp kinh doanh</string>
+    <string name="business_type_bus_1">Doanh nghiệp nhà nước</string>
+    <string name="business_type_bus_2">Doanh nghiệp tư nhân</string>
+    <string name="business_type_bus_3">Doanh nghiệp Công Ty cổ phần</string>
+    <string name="business_type_bus_4">Doanh nghiệp Công Ty TNHH một thành viên</string>
+    <string name="business_type_bus_5">Doanh nghiệp Công Ty TNHH hai thành viên trở lên</string>
+    <string name="business_type_bus_6">Doanh nghiệp Công Ty hợp danh</string>
+    <string name="business_type_car">Doanh nghiệp vận tải</string>
+    <string name="business_type_edu">Doanh nghiệp giáo dục</string>
+    <string name="business_type_car_dly">DN thuộc Đại Lý Piepxe</string>
+    <string name="business_type_ent">Entertainment</string>
+    <string name="piepjob_name">Họ tên của bạn</string>
+    <string name="piepjob_send_code">Gửi mã</string>
+    <string name="piepjob_input_code_phone_verify">Nhập mã xác nhận</string>
+    <string name="piepjob_otp_phone_notcorrect">Mã xác nhận không hợp lệ</string>
+    <string name="piepjob_sex_male">Nam</string>
+    <string name="piepjob_sex_female">Nữ</string>
+    <string name="piepjob_age">Tuổi</string>
+    <string name="piepjob_state_find_job">Trạng thái</string>
+    <string name="piepjon_state_find_job_des">Bạn đang cần tìm công việc mới (số đt của bạn sẽ được bảo mật)</string>
+    <string name="piepjon_state_business_job_des">Hồ sơ công ty ở chế độ cộng đồng có thể xem (số đt của bạn sẽ được bảo mật)</string>
+    <string name="piepjob_my_info">Giới thiệu bản thân</string>
+    <string name="piepjob_limit_info_video">Video giới thiệu bản thân (tối đa 60s)</string>
+    <string name="piepjob_job">Tiêu đề tuyển dụng</string>
+    <string name="piepjob_info_salary">Mức lương mong muốn</string>
+    <string name="piepjob_info_skill">Kỹ năng chuyên môn</string>
+    <string name="piepjob_info_year_exp">Số năm kinh nghiệm</string>
+    <string name="piepjob_position_job">Vị trí công việc</string>
+    <string name="piepjob_time_job">Thời gian làm việc</string>
+    <string name="piepjob_save">Lưu</string>
+    <string name="piepjob_add_new_tag">Thêm từ khoá</string>
+    <string name="piepjob_keyword">Từ khoá</string>
+    <string name="piepjob_selected_tag">Từ khoá được chọn</string>
+    <string name="piepjob_account">Tài khoản</string>
+    <string name="piepjob_display_name">Tên hiển thị</string>
+    <string name="piepjob_living">Hiện đang sống ở</string>
+    <string name="piepjob_sex">Giới tính</string>
+    <string name="piepjob_birthday">Năm sinh</string>
+    <string name="piepjob_phone">Điện thoại</string>
+    <string name="piepjob_edit">Chỉnh sửa</string>
+    <string name="piepjob_image_cmnd">Hình giấy CMND</string>
+    <string name="piepjob_my_intro">Nội dung giới thiệu…</string>
+    <string name="piepjob_certificate">Bằng cấp</string>
+    <string name="piepjob_career">Nghề nghiệp</string>
+    <string name="piepjob_mailbox">Hộp Thư</string>
+    <string name="piepjob_register_now">Đăng ký ngay</string>
+    <string name="piepjob_noneLogon_input_phone">Nhập số điện thoại</string>
+    <string name="piepjob_noneLogin_conversation">"Không gian trò chuyện và trao đổi riêng tư. Bạn hãy đăng ký để tạo tài khoản ttJOBS cá nhân!"</string>
+    <string name="piepjob_noneLogin_account">Không gian cài đặt và quản lý tài khoản. Bạn hãy đăng ký để tạo tài khoản ttJOBS cá nhân!</string>
+    <string name="piepjob_code_confirm">Mã xác nhận</string>
+    <string name="piepjob_verify_phone">Kiểm tra số điện thoại</string>
+    <string name="piepjob_profile_update_success">Bạn đã cập nhật thông tin thành công!</string>
+    <string name="piepjob_business_fields_of_work">Lĩnh vực hoạt động</string>
+    <string name="piepjob_business_Number_of_years_of_operation">Số năm hoạt động</string>
+    <string name="piepjob_business_intro">Giới thiệu công ty</string>
+    <string name="piepjob_intro_about_company">Giới thiệu về công ty</string>
+    <string name="piepjob_business_fields">Lĩnh vực</string>
+    <string name="piepjob_business_fields_wish">Lĩnh vực mong muốn</string>
+    <string name="piepjob_save_draft">Lưu nháp</string>
+    <string name="piepjob_save_public">Đăng tin</string>
+    <string name="piepjob_number">Số lượng</string>
+    <string name="piepjob_time_ex_CV">Thời hạn nộp CV</string>
+    <string name="piepjob_time_ex">Thời hạn</string>
+    <string name="piepjob_vacancy">Vị trí cần tuyển</string>
+    <string name="piepjob_vacancy_placeholder">Nội dung yêu cầu</string>
+    <string name="piepjob_done">Xong</string>
+    <string name="piepjob_position_title">Vị trí tuyển</string>
+    <string name="piepjob_range_age_title">Độ tuổi tuyển dụng</string>
+    <string name="piepjob_range_age">Độ tuổi</string>
+    <string name="piepjob_input_content_placeholder">Nhập nội dung...</string>
+    <string name="piepjob_input_content_placeholder2">Nội dung…</string>
+    <string name="piepjob_benefit">Quyền lợi</string>
+    <string name="piepjob_benefit_placeholder">Nội dung quyền lợi của nhân viên công ty</string>
+    <string name="piepjob_create_recruitment">Đăng tin tuyển dụng</string>
+    <string name="piepjob_create_recruitment_success">Tin của bạn đã được đăng</string>
+    <string name="piepjob_create_recruitment_draft_success">Tin của bạn đã được lưu</string>
+    <string name="piepjob_info_version">PiepJob Phiên bản</string>
+    <string name="piepjob_change_language">Thay đổi ngôn ngữ</string>
+    <string name="piepjob_address">Địa điểm</string>
+    <string name="piepjob_search">Tìm kiếm</string>
+    <string name="piepjob_request_permisson_location">Để hỗ trợ bạn xác định địa chỉ chính xác, bạn cần cho phép PiepJob truy cập chức năng định vị của máy. Cảm ơn bạn!</string>
+    <string name="piepjob_input_number_account">Số cá nhân</string>
+    <string name="piepjob_info_bank">Thông tin ngân hàng</string>
+    <string name="piepjob_business_name">Tên doanh nghiệp</string>
+    <string name="piepjob_input_business_bank">Cập nhật tài khoản…</string>
+    <string name="piepjob_business_type">Loại hình doanh nghiệp</string>
+    <string name="piepjob_business_address">Địa chỉ</string>
+    <string name="piepjob_business_tax">Mã số thuế</string>
+    <string name="piepjob_business_code_invite">Mã giới thiệu (nếu có)</string>
+    <string name="piepjob_business_account">Tên chủ tài khoản</string>
+    <string name="piepjob_business_account_placeholder">Cập nhật tài khoản...</string>
+    <string name="piepjob_business_account_number_placeholder">Cập nhật số tài khoản…</string>
+    <string name="piepjob_business_account_number">Số tài khoản</string>
+    <string name="piepjob_business_bank">Ngân hàng</string>
+    <string name="piepjob_business_bank_placeholder">Ngân hàng…</string>
+    <string name="piepjob_business_branch">Chi nhánh</string>
+    <string name="piepjob_business_branch_placeholder">Tên chi nhánh…</string>
+    <string name="piepjob_business_license_image">Hình giấy phép kinh doanh</string>
+    <string name="piepjob_business_name_placeholder">Điền tên doanh nghiệp…</string>
+    <string name="piepjob_business_type_placeholder">Chọn loại hình doanh nghiệp</string>
+    <string name="piepjob_business_address_placeholder">Điền địa chỉ…</string>
+    <string name="piepjob_phone_placeholder">Điền số điện thoại…</string>
+    <string name="piepjob_business_tax_placeholder">Điền mã số thuế…</string>
+    <string name="piepjob_business_code_invite_placeholder">Nhập mã…</string>
+    <string name="piepjob_business_create_business">Đăng ký là doanh nghiệp</string>
+    <string name="piepjob_choose_account">Chọn tài khoản</string>
+    <string name="piepjob_job_description">Mô tả công việc</string>
+    <string name="piepjob_job_professional_requirements">Yêu cầu chuyên môn</string>
+    <string name="piepjob_job_professional">Nghiệp vụ</string>
+    <string name="piepjob_send">Gửi</string>
+    <string name="piepjob_post_public">Đang tuyển</string>
+    <string name="piepjob_post_draft">Tin nháp</string>
+    <string name="piepjob_post_expire">Hết hạn</string>
+    <string name="piepjob_recruitment">Tin Tuyển Dụng</string>
+    <string name="piepjob_address_recruitment">Địa điểm làm việc</string>
+    <string name="piepjob_add_address_receuitment">Thêm địa điểm</string>
+    <string name="piepjob_change_address_receuitment">Thay đổi địa điểm</string>
+    <string name="piepjob_address_recruiment_max">Tối đa 3 địa điểm</string>
+    <string name="piepjob_address_recruitment_limit">Địa điểm làm việc (Tối đa 3 địa điểm)</string>
+    <string name="piepjob_recruitment_number_people">Số lượng: %1$s người</string>
+    <string name="piepjob_recruitment_time_expire">Thời hạn: %1$s</string>
+    <string name="piepjob_recruitment_time_expire2">Thời hạn</string>
+    <string name="piepjob_recruitment_time_expire3">Hạn tuyển dụng</string>
+    <string name="piepjob_menu_show_hide_recruitment">Hiển thị / ẩn tin</string>
+    <string name="piepjob_menu_delete_recruitment">Xoá</string>
+    <string name="piepjob_delete_recruitment_confirm">Bạn có muốn xóa bài đăng này?</string>
+    <string name="piepjob_delete_recruitment_success">Bạn đã xóa thành công</string>
+    <string name="piepjob_salary">Mức lương</string>
+    <string name="status_business">Hồ sơ công ty ở chế độ cộng đồng có thể xem (số đt của bạn sẽ được bảo mật)</string>
+
+    <string name="piepjob_job_fit">Phù hợp</string>
+    <string name="piepjob_job_fit2">Phù hợp với bạn</string>
+    <string name="piepjob_job_submitted_cv">Đã nộp CV</string>
+    <string name="piepjob_job_saved">Việc lưu</string>
+    <string name="piepjob_newest_recruitment">Tin Tuyển Dụng Mới</string>
+    <string name="piepjob_submit_cv">Nộp CV nhanh</string>
+    <string name="piepjob_featured_employer">Doanh nghiệp nổi bật</string>
+    <string name="piepjob_show_all">Xem tất cả</string>
+    <string name="piepjob_send_cv_success">Bạn đã nộp CV thành công</string>
+    <string name="piepjob_save_cv">Lưu tin</string>
+    <string name="piephob_send_cv">Nộp CV</string>
+    <string name="piepjob_vacancy_now">Việc làm đang tuyển</string>
+    <string name="piepjob_save_post_success">Bạn đã lưu tin thành công</string>
+    <string name="piepjob_delete_post_success">Bạn đã xóa tin thành công</string>
+    <string name="piepjob_post_hidden">Ẩn tin</string>
+    <string name="piepjob_hidden_post">Tin Ẩn</string>
+    <string name="piepjob_post_rejected">Từ chối</string>
+    <string name="piepjob_post_pendding">Chờ duyệt</string>
+    <string name="piepjob_candidate">Ứng viên</string>
+    <string name="piepjob_copy">Sao chép</string>
+    <string name="piepjob_refresh">Làm mới</string>
+    <string name="piepjob_candidate_invite_interview">Mời PV</string>
+    <string name="piepjob_candidate_schedule">Lịch hẹn</string>
+    <string name="piepjob_candidate_result">Kết Quả</string>
+    <string name="piepjob_experience">Kinh nghiệm</string>
+    <string name="piepjob_ignore">Bỏ qua</string>
+    <string name="piepjob_fall">Không đạt</string>
+    <string name="piepjob_appointment_interview">Hẹn PV</string>
+    <string name="piepjob_date_interview">Ngày phỏng vấn</string>
+    <string name="piepjob_time">Thời gian</string>
+    <string name="piepjob_invitation">Thư mời</string>
+    <string name="piepjob_appointment_go_company">Đến công ty</string>
+    <string name="piepjob_appointment_online">Trực tuyến</string>
+    <string name="piepjob_update_phone_exists">Số điện thoại đã tồn tại</string>
+    <string name="piepjob_update_phone_success">Bạn đã cập nhật thành công</string>
+    <string name="piepjob_send_appointment_success">Bạn đã gửi lịch hẹn thành công</string>
+    <string name="piepjob_reject_appointment_confirm">Bạn có chắc muốn bỏ qua ứng viên này?</string>
+    <string name="piepjob_top_salary">Việc nổi bật</string>
+    <string name="piepjob_suggest_find_job">Gợi Ý Tìm Việc</string>
+    <string name="piepjob_job_near_you">Việc Gần Bạn</string>
+    <string name="piepjob_job_part_time">Việc bán thời gian</string>
+    <string name="piepjob_job_enjoy">Việc làm bạn sẽ thích</string>
+    <string name="piepjob_carrier">Ngành Nghề</string>
+    <string name="piepjob_choose_business_fields">Chọn lĩnh vực</string>
+    <string name="piepjob_filter_by_career">Lọc theo ngành nghề</string>
+
+    <string name="all_txt_search">Tìm kiếm</string>
+    <string name="pieper_circle_send">Gửi</string>
+    <string name="message_blocked_content">Bạn không thể tiếp tục trò chuyện</string>
+    <string name="message_emoji_no_to_display" translatable="false">No emoji to display.</string>
+    <string name="profile_relationship_title">Tình trạng hôn nhân</string>
+    <string name="all_txt_single">Độc thân</string>
+    <string name="all_txt_married">Đã kết hôn</string>
+    <string name="txt_accept_appoitment">Đồng ý PV Trực Tuyến</string>
+    <string name="txt_accept_interview">Đồng ý PV</string>
+
+
+    <string name="piepjob_sex_other">Khác</string>
+    <string name="piepjob_not_required_sex">Không yêu cầu</string>
+    <string name="piepjob_info">Thông tin</string>
+    <string name="reject_interview_title">Từ chối phỏng vấn</string>
+    <string name="reasion_hint">Nhập lý do</string>
+    <string name="other_reasion">Lý do khác</string>
+
+    <string name="piepjob_business_watting_cv">Chờ nộp CV</string>
+    <string name="piepjob_business_invited">Đã mời</string>
+    <string name="piepjob_business_invite">Mời nộp CV</string>
+    <string name="piepjob_business_invited_success">Bạn đã mời thành công</string>
+    <string name="piepjob_position_invite">Vị trí ứng tuyển</string>
+    <string name="piepjob_choose_position_invite">Chọn 1 tin đang tuyển</string>
+    <string name="piepjob_missed_interview">Lỡ hẹn</string>
+    <string name="piepjob_interviewed">Đã PV</string>
+    <string name="piepjob_canceled">Từ chối</string>
+    <string name="piepjob_approve_candidate">Tuyển dụng</string>
+    <string name="piepjob_missed_interview_confirm">Bạn có chắc ứng viên lỡ hẹn?</string>
+    <string name="piepjob_interview_confirm">Bạn có chắc đã phỏng vấn ứng viên?</string>
+    <string name="piepjob_approve_confirm">Bạn có chắc muốn tuyển dụng ứng viên này?</string>
+    <string name="piepjob_online_recruitment">Tuyển Dụng Trực Tuyến</string>
+    <string name="piepjob_livestream">Phát sóng trực tiếp</string>
+    <string name="piepjob_live">Trực tiếp</string>
+    <string name="piepjob_rejected_cv">Từ chối nộp CV</string>
+    <string name="piepjob_rejected_interview">Từ chối PV</string>
+    <string name="piepjob_appointment_candiate">Ứng viên phỏng vấn</string>
+    <string name="piepjob_maximum_otag">Bạn đã chọn tối đa % từ khoá</string>
+    <string name="piepjob_suggest_otag">Từ khoá gợi ý</string>
+    <string name="piepjob_schedule_interview">Lịch phỏng vấn</string>
+    <string name="piepjob_marital_status">Tình trạng hôn nhân</string>
+    <string name="piepjob_status_single">Độc thân</string>
+    <string name="piepjob_status_married">Đã kết hôn</string>
+    <string name="piepjob_status_divorce">Ly hôn</string>
+    <string name="piepjob_show_time_pv">PV</string>
+
+
+    <string name="message_sent">đã gửi</string>
+    <string name="message_seen">đã xem</string>
+    <string name="message_received">đã nhận</string>
+    <string name="message_input">Nội dung chat…</string>
+    <string name="message_call_back">Gọi lại</string>
+    <string name="message_online_now">Vừa mới online</string>
+    <string name="message_pin">Ghim tin</string>
+    <string name="message_forward">Chuyển tiếp</string>
+    <string name="message_revoke">Thu hồi</string>
+    <string name="undo_messager">Tin nhắn đã bị thu hồi</string>
+    <string name="call_missing">Nhỡ cuộc gọi</string>
+    <string name="call_called">Bạn đã gọi</string>
+    <string name="call_received_call">Bạn đã nhận cuộc gọi</string>
+    <string name="txt_send">Gửi</string>
+
+
+    <string name="piepjob_in_a_call">Bạn không thể dùng tính năng gọi này khi đang trong cuộc gọi khác. Xin thử lại sau.</string>
+    <string name="piepjob_confirmation_create_bussiness">Bạn có chắc muốn đăng ký doanh nghiệp?</string>
+    <string name="piepjob_create_bussiness_success">Đăng ký doanh nghiệp thành công!</string>
+    <string name="piepjob_create_business_reject">Đăng ký doanh nghiệp của bạn đã bị từ chối</string>
+    <string name="piepjob_rejected_interview_text">Đã từ chối phỏng vấn</string>
+    <string name="piepjob_reject_interview_key_01">Từ chối, lịch PV không phù hợp</string>
+    <string name="piepjob_reject_interview_key_02">Từ chối, vị trí công việc không phù hợp</string>
+    <string name="piepjob_reject_interview_other_reason">Lý do khác</string>
+    <string name="piepjob_reject_interview_key_01_business">Đã từ chối vì lịch PV không phù hợp</string>
+    <string name="piepjob_reject_interview_key_02_business">Đã từ chối vì vị trí công việc không phù hợp</string>
+    <string name="piepjob_accept_interview_user">Xác nhận lịch PV</string>
+    <string name="piepjob_accept_interview_business">Đã xác nhận lịch phỏng vấn</string>
+    <string name="piepjob_reject_interview_title">Từ chối phỏng vấn</string>
+    <string name="piepjob_reject_interview_input_reason">Nhập lý do</string>
+    <string name="right_menu_account_business">Tài khoản Doanh Nghiệp</string>
+    <string name="right_menu_change_account">Chuyển đổi tài khoản</string>
+    <string name="right_menu_packet_service">Gói dịch vụ</string>
+    <string name="right_menu_app_info">Thông tin ứng dụng</string>
+    <string name="right_menu_share_app">Giới thiệu Tuổi Trẻ Tìm Việc cho bạn bè</string>
+
+    <string name="piepjob_response_reject_invite">Đã từ chối nộp CV</string>
+    <string name="piepjob_response_accept_invite">Đã nộp CV</string>
+    <string name="piepjob_response_reject_interview">Đã từ chối PV</string>
+    <string name="piepjob_response_accept_interview">Đã đồng ý PV</string>
+
+    <string name="message_key_noti">Thông báo</string>
+    <string name="message_key_setting">Thêm thành viên khác</string>
+    <string name="message_key_leave">Rời khỏi nhóm</string>
+    <string name="message_key_share">Nội dung đã chia sẻ</string>
+    <string name="message_key_creat">Create a chat group</string>
+    <string name="message_key_conver">Xóa cuộc trò chuyện</string>
+    <string name="message_key_block">Chặn</string>
+    <string name="template_title">Mẫu giới thiệu</string>
+
+    <!-- goi dien -->
+    <string name="call_accept">Chấp nhận</string>
+    <string name="call_cancel">Từ chối</string>
+    <string name="call_end">Kết thúc</string>
+    <string name="call_speaker">Loa ngoài</string>
+    <string name="call_receive">Nhận cuộc gọi</string>
+    <string name="call_connecting">Đang kết nối</string>
+    <string name="call_calling">Đang gọi</string>
+    <string name="call_calling_video">Đang gọi video</string>
+    <string name="call_receive_audio">Mời bạn chat thoại</string>
+    <string name="call_receive_video">Mời bạn chat video</string>
+    <string name="call_ringing">Đang đổ chuông</string>
+    <string name="call_busy">Đang bận</string>
+    <string name="call_friend_telephone">Gọi thoại</string>
+    <string name="call_good">tốt</string>
+    <string name="call_weak">yếu</string>
+    <string name="call_very_good">rất tốt</string>
+    <string name="call_reconnect"> kết nối lại</string>
+    <string name="call_connect_fail">kết nối thất bại</string>
+
+
+    <string name="chat_sent_file">Send file</string>
+
+    <!--THONG BAO-->
+    <string name="all_alert_please_check_internet">Không thể kết nối đến server, vui lòng thử lại</string>
+    <string name="all_alert_please_enable_internet">Vui lòng kiểm tra internet</string>
+    <string name="all_alert_please_allow_permission">Vui lòng cho phép ứng dụng có thể truy cập quyền</string>
+    <string name="all_alert_please_error">Có sự cố xảy ra, vui lòng thử lại sau.</string>
+    <string name="all_alert_confirm_exit_app">Bạn có muốn thoát ttJOBS?</string>
+    <string name="all_alert_warning_location">Vui lòng cho phép ứng dụng truy cập vị trí của bạn</string>
+    <string name="all_alert_warning_overlay">Vui lòng cho phép ứng dụng hiển thị trên ứng dụng khác, quyền cho chức năng gọi điện </string>
+    <string name="all_alert_warning_camera_photo">Vui lòng cho phép ứng dụng truy cập thư viện ảnh và camera của bạn</string>
+    <string name="all_alert_warning_audio">Vui lòng cho phép ứng dụng sử dụng quyền âm thanh</string>
+    <string name="all_alert_warning_per_app">Please allow ttJOBS to use some permission</string>
+
+    <string name="message_download_file">Tải xuống</string>
+    <string name="all_txt_setting">Settings</string>
+
+    <string name="pieper_alert_confirm_delete">Bạn có muốn xóa cuộc hội thoại này?</string>
+
+    <!--PIEPCALL-->
+    <string name="piepcall_back_call">Chạm để quay lại cuộc gọi</string>
+    <string name="piepcall_call_missing">nhỡ cuộc gọi</string>
+    <string name="piepcall_call_called">Bạn đã gọi</string>
+    <string name="piepcall_call_received_call">Bạn đã nhận cuộc gọi</string>
+    <string name="piepcall_in_a_call">Bạn không thể dùng tính năng gọi này khi đang trong cuộc gọi khác. Xin thử lại sau.</string>
+    <string name="piepxe_call">Di động</string>
+
+
+    <string name="congratulations">CHÚC MỪNG</string>
+    <string name="applied">BẠN ĐÃ TRÚNG TUYỂN</string>
+
+    <string name="register_error_4">Đăng ký tài khoản mới không phù hợp với điều khoản sử dụng PiepMe!</string>
+    <string name="piepjob_limit_info_video_business">Video giới thiệu công ty (tối đa 60s)</string>
+
+    <string name="SEND_MESSAGE_TO_USER">Bạn đã nhận được tin nhắn từ %1$s</string>
+
+    <!--channel name-->
+    <string name="key_noti_miss_call">Miss Call Notification</string>
+    <string name="key_noti_messenger">Messenger Notification</string>
+    <string name="key_noti_new_pieper">Pieper Notification</string>
+    <string name="key_noti_call_timer">CallTimer Notification</string>
+    <string name="key_noti_parttime_jobs">PartTime Jobs Notification</string>
+    <string name="key_noti_ttjobs_jobs">ttJOBS Notifications</string>
+
+    <string name="piepjob_missed_interview_status">Lỡ Hẹn PV</string>
+    <string name="piepjob_approved_interview">Được Tuyển</string>
+    <string name="piepjob_not_approved_interview">Không Trúng Tuyển</string>
+    <string name="piepjob_invitation_cv">Thư mời nộp CV</string>
+    <string name="piepjob_invitattion_time">%1$s ngày %2$s</string>
+    <string name="piepjob_invitattion_address">Địa điểm phỏng vấn</string>
+    <string name="piepjob_agree">Đồng Ý</string>
+    <string name="piepjob_inviation">Mời phỏng vấn</string>
+    <string name="notification_title">Thông Báo</string>
+    <string name="piepjob_inviation_online">Phỏng vấn trực tuyến</string>
+    <string name="piepjob_reject_invite_confirmation">Bạn có chắc muốn từ chối nộp CV?</string>
+
+
+    <string name="piepjob_user_notification_submit_cv">Bạn đã nộp CV</string>
+    <string name="piepjob_user_notification_schedule_interview">Bạn có một lịch hẹn phỏng vấn</string>
+    <string name="piepjob_user_notification_reject_cv">Bạn đã từ chối nộp CV</string>
+    <string name="piepjob_user_notification_reject_schedule_interview">Bạn đã từ chối lịch hẹn phỏng vấn</string>
+    <string name="piepjob_user_notification_approve">Chúc mừng bạn đã trúng tuyển</string>
+    <string name="piepjob_user_notification_reject_job">Chúng tôi rất tiếc vì bạn chưa đáp ứng được tiêu chí của vị trí này</string>
+    <string name="piepjob_user_notification_agree_interview">Bạn đã đồng ý phỏng vấn</string>
+    <string name="piepjob_user_notification_invite_cv">Bạn có một lời mời nộp CV</string>
+    <string name="piepjob_user_notification_interview">Chờ kết quả phỏng vấn</string>
+    <string name="piepjob_user_notification_miss_interview">Bạn đã lỡ hẹn phỏng vấn</string>
+    <string name="piepjob_business_notification_submit_cv">Đã nộp CV</string>
+    <string name="piepjob_business_notification_schedule_interview">Đã tạo lịch hẹn phỏng vấn</string>
+    <string name="piepjob_business_notification_reject_cv">Đã từ chối nộp CV</string>
+    <string name="piepjob_business_notification_reject_schedule_interview">Đã từ chối lịch hẹn phỏng vấn</string>
+    <string name="piepjob_business_notification_approve">Đã trúng tuyển</string>
+    <string name="piepjob_business_notification_reject_job">Đã từ chối</string>
+    <string name="piepjob_business_notification_agree_interview">Đã đồng ý phỏng vấn</string>
+    <string name="piepjob_business_notification_invite_cv">Đã mời nộp CV</string>
+    <string name="piepjob_business_notification_interview">Đã phỏng vấn</string>
+    <string name="piepjob_business_notification_miss_interview">Lỡ hẹn phỏng vấn</string>
+    <string name="video_exceed_limit">Video bạn chọn quá giới hạn</string>
+    <string name="piepjob_service_title_follow">Bạn bè cùng theo dõi</string>
+    <string name="piepjob_part_time_jobs">Việc Nhà</string>
+    <string name="piepjob_sign_up">Đăng ký</string>
+    <string name="piepjob_choose_work">Chọn công việc</string>
+    <string name="piepjob_around_title">Quanh Đây</string>
+    <string name="piepjob_service_title">Dịch Vụ</string>
+    <string name="piepjob_schedule_title">Lịch Hẹn</string>
+    <string name="piepjob_offer_title">Báo Giá</string>
+    <string name="piepjob_history_title">Lịch Sử</string>
+    <string name="piepjobs_my_jobs_title">Việc của tôi</string>
+    <string name="piepjobs_parttime_register_title">Đăng ký dịch vụ việc nhà</string>
+    <string name="piepjob_intro_profile">Video giới thiệu bản thân (tối đa 60s)</string>
+    <string name="piepjob_image_profile_title">Hình ảnh cá nhân (tối đa 6 ảnh)</string>
+    <string name="piepjobs_part_time_offer">Yêu cầu báo giá</string>
+    <string name="piepjobs_pin_on_map">Chọn trên bản đồ</string>
+    <string name="piepjobs_type_work">Định dạng công việc</string>
+    <string name="piepjobs_description">Mô tả</string>
+    <string name="piepjobs_image_video">Hình và video (tối đa 8 hình)</string>
+    <string name="piepjobs_max_follower">Chọn tối đa 5 người</string>
+    <string name="piepjobs_your_find">Bạn tìm nhân viên</string>
+    <string name="piepjobs_system_find">Hệ thống tìm nhân viên</string>
+    <string name="around_jobs_title_header">Việc cần người quanh đây</string>
+    <string name="sign_up_serivce">Đăng Ký Thi Công Dịch Vụ</string>
+    <string name="choose_work_defaul">Chọn công việc</string>
+    <string name="insert_jobs_description">Bạn chưa nhập mô tả công việc</string>
+    <string name="image_exceed_limit">Số ảnh bạn chọn quá giới hạn!</string>
+    <string name="confirmed_parttime">Đã duyệt</string>
+    <string name="rejected_parttime">Đã từ chối</string>
+    <string name="waiting_parttime">Đã đăng ký chờ xác nhận</string>
+    <string name="yeu_cau_bao_gia">%d yêu cầu báo giá</string>
+    <string name="system_finding">Hệ thống đang tìm giúp bạn</string>
+    <string name="employer_offer_title">Nhân Viên</string>
+    <string name="piepjobs_intro_media">Tự giới thiệu</string>
+    <string name="piepjobs_intro_image_title">Hình ảnh cá nhân</string>
+    <string name="offer_request_couter">Bạn được yêu cầu tối đa 3 người báo giá</string>
+    <string name="staff_matched_title">Nhân viên phù hợp yêu cầu</string>
+    <string name="staff_past_title">Nhân viên từng làm cho bạn</string>
+    <string name="piepjob_registered">Đã đăng ký</string>
+    <string name="piepjobs_part_time_offered">Đã yêu cầu</string>
+    <string name="txt_waiting">Đang chờ</string>
+    <string name="piepjob_choose">Chọn</string>
+    <string name="piepjob_time_come_title">Thời gian tới làm việc</string>
+    <string name="piepjob_note_title">Ghi chú</string>
+    <string name="piepjobs_content">Nội dung</string>
+    <string name="piepjob_send_offer">Gửi báo giá</string>
+    <string name="parttime_offer_detail_title">Chi tiết</string>
+    <string name="day_offer_my_jobs">Ngày yêu cầu báo giá</string>
+    <string name="state_offer_my_jobs_wai">Đã báo giá chờ xác nhận</string>
+    <string name="txt_start">Bắt đầu</string>
+    <string name="piepjobs_house_owner">Chủ nhà</string>
+    <string name="piepjobs_appoinment_offer">Hẹn</string>
+    <string name="piepjobs_parttime_done">Đã xong</string>
+    <string name="piepjobs_parttime_cancel">Đã hủy</string>
+    <string name="parttime_canceljob_confirm">Bạn có muốn hủy?</string>
+    <string name="parttime_startjob_confirm">Bạn có muốn bắt đầu?</string>
+    <string name="parttime_endjob_confirm">Bạn có muốn kết thúc?</string>
+    <string name="content_forcn_rating_dialog_title">ĐÁNH GIÁ NHÂN VIÊN</string>
+    <string name="piepjob_feedback_button">Đánh giá</string>
+    <string name="piepjobs_your_rating">Bạn đánh giá</string>
+    <string name="piepjobs_your_rating_failed">Không nhận được đánh giá</string>
+    <string name="content_forvn_rating_dialog_title">Đánh giá chủ nhà</string>
+    <string name="piepjobs_parttime_button_state">Bạn sẵn sàng cung cấp dịch vụ</string>
+    <string name="piepjobs_parttime_change_thumb_video">Thay đổi hình video thu nhỏ</string>
+    <string name="piepjob_accept_change_info_parttime">Thông tin của bạn sẽ được chúng tôi duyệt trước khi thay đổi</string>
+
+    <string name="KEY_NOTIFICATION_MESSAGE">Vừa mới gởi cho bạn 1 tin nhắn</string>
+    <string name="EVENT_WAIT_NOTIFICATIONS">Bạn được chọn báo giá</string>
+    <string name="EVENT_PEN_NOTIFICATIONS">Nhân viên gửi báo giá cho chủ nhà</string>ss
+    <string name="EVENT_APP_NOTIFICATIONS">Chủ nhà đồng ý báo giá của nhân viên</string>
+    <string name="SEND_NOTI_SEL">%1$s đã nộp CV vào %2$s</string>
+    <string name="SEND_NOTI_LIH">%1$s đã mời bạn đi phỏng vấn %2$s</string>
+    <string name="SEND_NOTI_REJ">%1$s đã từ chối đi phỏng vấn %2$s</string>
+    <string name="SEND_NOTI_AGR">%1$s đã đồng ý đi phỏng vấn %2$s</string>
+    <string name="SEND_NOTI_APP">Bạn đã trúng tuyển</string>
+    <string name="all_alert_confirm_post_jobs">Bạn chưa lưu tin. Bạn có chắc chắn muốn rời khỏi không?</string>
+    <string name="EVENT_WAIT_OF_CN_NOTIFICATIONS">Bạn đã yêu cầu báo giá</string>
+
+    <!-- PIEP LIVE -->
+    <string name="pieplive_no_live">No Live</string>
+    <string name="pieplive_piep_live">Piep Live</string>
+    <string name="pieplive_view">Xem</string>
+    <string name="pieplive_live">Trực tiếp</string>
+    <string name="pieplive_coming_soon_live">Sắp live:</string>
+    <string name="pieplive_want_to_close">Bạn có thật muốn thoát khỏi PiepLive?</string>
+    <string name="pieplive_want_to_stop">Bạn có thật muốn kết thúc PiepLive?</string>
+    <string name="pieplive_live_error">Đường truyền không ổn định, PiepLive không thể tiếp tục!</string>
+    <string name="pieplive_limit_time_live">Thời gian live tối đa là xxxxx phút.</string>
+    <string name="pieplive_live_time_limited">Bạn đã live được xxxxx phút!</string>
+    <string name="pieplive_finished">PiepLive đã kết thúc!</string>
+    <string name="pieplive_start">Bắt đầu</string>
+    <string name="pieplive_stop">Kết thúc</string>
+    <string name="pieplive_update_permission">Hãy cấp quyền cho PiepLive</string>
+    <string name="pieplive_grant_permission">Cấp quyền</string>
+    <string name="pieplive_quality">Chất lượng</string>
+    <string name="pieplive_livenow">Live ngay</string>
+    <string name="pieplive_calendar">Đặt lịch live</string>
+    <string name="pieplive_internet_weak">Mạng yếu</string>
+    <string name="pieplive_watching">Đang xem</string>
+    <string name="pieplive_open_comment">Mở bình luận</string>
+    <string name="pieplive_rotation_device">Xoay thiết bị</string>
+    <string name="pieplive_rotation_device_warn">Bạn không thể xoay điện thoại khi phát trực tiếp</string>
+    <string name="pieplive_verify_phone_info">Xác nhận số điện thoại để livestream lâu hơn</string>
+    <string name="pieplive_livestream">phát trực tiếp</string>
+    <string name="pieplive_room">Room</string>
+    <string name="pieplive_content_default">Bạn đang xem Livestream bằng tính năng PiepLive – NHANH - GỌN - SẮC NÉT.</string>
+    <string name="pieplive_warn_network">Kết nối mạng yếu, PiepLive của bạn đã bị tạm dừng. Hãy kiểm tra lại mạng hoặc bạn có thể kết thúc PiepLive.</string>
+    <string name="pieplive_error">Video bị lỗi</string>
+    <string name="pieplive_processing">Video đang xử lý \n vui lòng xem lại lúc khác</string>
+    <string name="pieplive_processing_video">Đang xử lý</string>
+    <string name="pieplive_broadcast">Phát sóng</string>
+    <string name="pieplive_broadcasting">Đang Phát sóng</string>
+    <string name="pieplive_create_period">Tạo lịch phát sóng</string>
+    <string name="pieplive_fees_live">Giá dịch vụ</string>
+    <string name="pieplive_buy_success">Bạn đã mua thành công</string>
+    <string name="pieplive_time_live">Thời gian live</string>
+    <string name="pieplive_share_to">Người xem được chia sẽ tới</string>
+    <string name="pieplive_share_piepme">Bạn bè PiepMe</string>
+    <string name="pieplive_share_social">Mạng xã hội khác</string>
+    <string name="pieplive_coming_end">PiepLive sắp kết thúc</string>
+    <string name="pieplive_interruption">Livestream đang bị gián đoạn!</string>
+    <string name="pieplive_device_not_support">Xin lỗi!, Thiết bị của bạn không hỗ trợ Live.</string>
+    <string name="camera_pieplive_processing">Camera đang được bảo trì, Bạn vui lòng thử lại sau!</string>
+
+    <string name="profile_main_tool_login_web">Đăng nhập Web</string>
+    <string name="profile_main_alert_question_login_web">Bạn có muốn đăng nhập không?</string>
+    <string name="profile_main_alert_webaccess_token_expired">Mã của bạn đã hết hạn. Vui lòng lấy mã mới và thử lại.</string>
+    <string name="profile_cv_title">Hồ sơ cá nhân</string>
+    <string name="profile_parttime_title">Làm dịch vụ</string>
+    <string name="parttime_company_title">Công ty</string>
+    <string name="parttime_company_name">Tên Công ty</string>
+    <string name="piepjob_popup_created_success">Đăng tin khác</string>
+    <string name="piepjob_popup_created_close">Đóng thông báo</string>
+    <string name="piepjob_button_reject">Lý do từ chối</string>
+    <string name="update_business_pendding">Cập nhật tài khoản đang chờ duyệt</string>
+    <string name="update_business_rejected">Từ chối cập nhật</string>
+    <string name="is_new">Mới</string>
+    <string name="piepjob_partime_service_bg">Bạn cần giúp việc nhà Đăng tin ngay</string>
+    <string name="more_fee_parttime">Chi phí phát sinh</string>
+    <string name="more_monney_title">Số tiền</string>
+    <string name="parttime_total_price">Tổng</string>
+    <string name="txt_piepjob_pls_input_nickname">Vui lòng nhập Họ Tên</string>
+    <string name="txt_piepjob_pls_input_email">Vui lòng nhập Email</string>
+    <string name="txt_piepjob_pls_input_otp">Vui lòng nhập OTP</string>
+    <string name="piepjob_noti_no_matching">Rất tiếc ttJOB không tìm thấy hồ sơ tuyển dụng phù hợp với các yêu cầu tìm việc của Bạn. Bạn có thể tiếp tục đợi hoặc cập nhập/chỉnh sửa lại yêu cầu tìm việc của mình!</string>
+    <string name="piepjob_delete_video">Xóa video</string>
+    <string name="piepjob_alert_title_created_recruitment">Đăng tin thành công và đợi duyệt</string>
+    <string name="piepjob_alert_content_created_recruitment">Cảm ơn bạn đã đăng tin!</string>
+    <string name="piepjob_alert_content_2_created_recruitment">Tin của bạn sẽ được kiểm duyệt, vui lòng chờ thông báo để cập nhật kết quả kiểm duyệt.</string>
+    <string name="piepjob_have_account">ĐÃ CÓ TÀI KHOẢN</string>
+    <string name="piepjob_qr_code">QR Code</string>
+    <string name="piepjob_otp_mail">OTP Mail</string>
+    <string name="piepjob_address_mail">Địa chỉ email của bạn</string>
+    <string name="piepjob_otp_send_mail">Mã xác nhận của bạn được gửi đến email</string>
+    <string name="piepjob_email_exist">Email đã tồn tại</string>
+    <string name="piepjob_send_otp_fail">Gửi OTP không thành công</string>
+    <string name="piepjob_send_otp_success">Gửi OTP thành công</string>
+    <string name="piepjob_confirm_otp_success">Xác thực OTP thành công</string>
+    <string name="piepjob_confirm_otp_fail">Xác thực OTP không thành công</string>
+    <string name="piepjob_email_no_exist">Email không tồn tại</string>
+    <string name="piepjob_business_invite_source">Bạn biết đến ttJOBS từ</string>
+    <string name="piepjob_business_name_type_placeholder">Chọn tên doanh nghiệp</string>
+    <string name="piepjob_source">Nguồn</string>
+    <string name="piepjob_pls_choose_business_invite">Bạn vui lòng chọn nguồn giới thiệu ttJOBS</string>
+    <string name="piepjob_source_business_invite">Nguồn giới thiệu</string>
+    <string name="piepjob_empty_email">Vui lòng xác nhận địa chỉ email của bạn để tiếp tục sử dụng ttJOBS</string>
+    <string name="piepjob_cv_profile">CV Cá nhân</string>
+    <string name="piepjob_have_account_2">Bạn đã có tài khoản? Vui lòng chọn</string>
+    <string name="piepjob_newest_jobs">Việc mới đăng</string>
+    <string name="piepjob_pls_choose_name_jobs">Bạn vui lòng chọn nghề nghiệp trước khi chọn kỹ năng chuyên môn!</string>
+    <string name="all_txt_position">Vị trí</string>
+    <string name="piepjob_pls_input_character">Vui lòng nhập từ 4 đến 128 ký tự</string>
+    <string name="piepjob_info_job">Thông tin chung</string>
+    <string name="piepjob_complete">Hoàn thành</string>
+    <string name="confirm_publish_recruitment">Trong thời gian xét duyệt bạn không thể chỉnh sửa hoặc xóa tin tuyển dụng này. Xác nhận đăng tin?</string>
+    <string name="piepjob_office_wish">Vị trí mong muốn</string>
+    <string name="piepjob_office">Vị trí</string>
+    <string name="piepjob_rank">Cấp bậc công việc</string>
+    <string name="piepjob_leave">Rời đi</string>
+    <string name="piepjob_stay">Ở lại</string>
+    <string name="profile_your_cv_title">Hồ sơ (CV) của bạn</string>
+    <string name="profile_profile_cv_title">Hồ sơ (CV)</string>
+    <string name="piepjob_do_not_noti">Bạn không có quyền ở chức năng này. Vui lòng liên hệ người quản trị</string>
+    <string name="find_job_near">Tìm việc quanh đây</string>
+    <string name="piepjob_accept_account_buss">Tài khoản doanh nghiệp của bạn đã được phê duyệt</string>
+    <string name="piepjob_reject_account_buss">Tài khoản doanh nghiệp của bạn đã bị từ chối</string>
+    <string name="piepjob_pls_buy_refresh">Vui lòng mua thêm lượt làm mới</string>
+    <string name="piepjob_confirm_refresh">Xác nhận làm mới tin đăng?</string>
+    <string name="piepjob_refresh_success">Làm mới tin đăng thành công</string>
+    <string name="confirm_dialog">Bạn có chắc chắn?</string>
+    <string name="piepjob_pls_input_full_cv">Bạn vui lòng cập nhật đầy đủ hồ sơ để nộp CV</string>
+    <string name="piepjob_choose_rank_age">Chọn độ tuổi</string>
+    <string name="txt_see_profile_bussiness">Xem hồ sơ đăng ký</string>
+    <string name="register_bussiness_success_label">Bạn đã đăng ký tài khoản doanh nghiệp. Vui lòng chuyển đổi tài khoản để quản lý tuyển dụng.</string>
+    <string name="ttjob_busines_register">Doanh Nghiệp Đang Chờ Duyệt</string>
+    <string name="piepjob_update_info_cv">Cập nhập hồ sơ</string>
+    <string name="piepjob_choose_year_of_birth">Chọn năm sinh</string>
+    <string name="piepjob_are_you_sure">Bạn có chắc chắn không?</string>
+    <string name="piepjob_alert_delete_video">Bạn có muốn xóa video giới thiệu?</string>
+    <string name="piepjob_see_post">Xem tin tuyển dụng</string>
+    <string name="piepjob_see_cv">Xem CV ứng viên</string>
+    <string name="piepjob_complete_cv">Bạn hãy hoàn thiện hồ sơ để tiếp cận nhiều tuyển dụng phù hợp</string>
+    <string name="piepjob_profile_bussines_update_success">Bạn đã cập nhật thông tin thành công! Vui lòng đợi duyệt</string>
+    <string name="piepjob_apply">Áp dụng</string>
+</resources>

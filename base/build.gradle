@@ -1,0 +1,158 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion compile_sdk_version
+    buildToolsVersion build_tools_version
+
+    defaultConfig {
+        minSdkVersion min_sdk_version
+        targetSdkVersion target_sdk_version
+        versionCode android_version
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+//repositories {
+//    google()
+//    mavenCentral()
+//}
+
+dependencies {
+    api 'androidx.multidex:multidex:2.0.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api 'androidx.appcompat:appcompat:1.2.0'
+    api 'androidx.core:core-ktx:1.3.2'
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
+    api 'com.google.android.material:material:1.3.0'
+    api 'androidx.annotation:annotation:1.1.0'
+    api 'androidx.recyclerview:recyclerview:1.2.0-beta02'
+    api 'androidx.recyclerview:recyclerview-selection:1.1.0'
+    api 'androidx.cardview:cardview:1.0.0'
+    api 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //kotlin
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+//    api 'androidx.databinding:databinding-compiler:4.2.0-alpha09'
+//    api 'com.android.databinding:compiler:3.1.4'
+
+    //retrofit2
+    api 'com.squareup.retrofit2:retrofit:2.7.2'
+    api 'com.squareup.retrofit2:converter-gson:2.7.2'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.7.2'
+    api 'com.squareup.okhttp3:logging-interceptor:4.4.1'
+
+    //gson
+    api 'com.google.code.gson:gson:2.8.6'
+
+    //lifecycle
+    api 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0'
+
+
+    //Paging
+    api 'androidx.paging:paging-runtime-ktx:2.1.2'
+
+    //rxkotlin
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    api 'io.reactivex.rxjava2:rxkotlin:2.4.0'
+
+    //room
+    api 'androidx.room:room-runtime:2.2.6'
+    kapt 'androidx.room:room-compiler:2.2.6'
+
+    //glide
+    api 'com.github.bumptech.glide:glide:4.12.0'
+    kapt 'com.github.bumptech.glide:compiler:4.12.0'
+    kapt 'com.github.bumptech.glide:annotations:4.12.0'
+    implementation("com.github.bumptech.glide:glide:4.12.0@aar") {
+        transitive = true
+    }
+    //glide with custom cornor option
+    api 'jp.wasabeef:glide-transformations:4.1.0'
+
+    //recyclerview animators
+    api 'jp.wasabeef:recyclerview-animators:3.0.0'
+
+    //RecyclerViewSnapHelper
+    api 'com.github.rubensousa:gravitysnaphelper:1.5'
+
+    //swipelayout
+    api 'com.daimajia.swipelayout:library:1.2.0@aar'
+
+    //Lottie
+    api 'com.airbnb.android:lottie:3.4.0'
+
+    //socketIO
+    api('io.socket:socket.io-client:1.0.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+
+    //HText Animation
+    api 'com.hanks:htextview-base:0.1.6'
+    api 'com.hanks:htextview-scale:0.1.6'
+
+    //exo player 2
+    api 'com.google.android.exoplayer:exoplayer:2.12.2'
+
+    //SmartTabLayout
+    api 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
+
+    api 'androidx.preference:preference-ktx:1.1.1'
+
+    //number picker view
+    api 'com.shawnlin:number-picker:2.4.6'
+
+
+    //Crashlytics
+//    api 'com.google.firebase:firebase-crashlytics:17.3.1'
+//    api 'com.google.firebase:firebase-crashlytics-ndk:17.3.1'
+
+
+    //emoticongif
+    api 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+
+    //calendar_lib
+    //noinspection GradleCompatible
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //firebase for appCall
+//    api 'org.webrtc:google-webrtc:1.0.30039'
+//    api 'com.google.firebase:firebase-auth:20.0.2'
+//    api 'com.google.firebase:firebase-core:18.0.2'
+//    api 'com.google.firebase:firebase-messaging:21.0.1'
+//    api 'com.google.firebase:firebase-database:19.6.0'
+//
+//    api 'com.google.android.gms:play-services-auth:19.0.0'
+//    api 'com.google.android.gms:play-services-maps:17.0.0'
+//    api 'com.google.android.gms:play-services-location:18.0.0'
+//    api 'com.google.android.libraries.places:places:2.4.0'
+
+    //live stream
+    api 'com.annimon:stream:1.2.1'
+
+
+    //zxing scan QRcode
+//    api('com.journeyapps:zxing-android-embedded:4.1.0') { transitive = false }
+//    api 'com.google.zxing:core:3.3.0'
+
+    //bubble view
+    //api 'com.github.MasayukiSuda:BubbleLayout:v1.2.1'
+}

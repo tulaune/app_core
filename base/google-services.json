@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1013742494437",
+    "firebase_url": "https://piepjobs.firebaseio.com",
+    "project_id": "piepjobs",
+    "storage_bucket": "piepjobs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013742494437:android:ca9472209da5bb9a00aa0c",
+        "android_client_info": {
+          "package_name": "vn.piepme.timviec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013742494437-ahhufdgq8m7274n70vn0nvs9r5nlm19i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-tauAuzEuj5gUou7r5AgyMcRsxPTKajU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013742494437-ahhufdgq8m7274n70vn0nvs9r5nlm19i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1013742494437-6ol9vsdfe4ko9sgj7cr0vb6ksinni8bl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.piepme.timviec"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

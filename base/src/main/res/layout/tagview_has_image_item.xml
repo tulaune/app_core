@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/tv_image"
+            android:layout_width="30dp"
+           android:layout_alignParentStart="true"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_avatar_default"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"/>
+
+
+    <com.tulau.core.views.MyTextView
+            android:id="@+id/tv_tag_item_contain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/tv_image"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            app:typeface="@string/fonts_opensans_semi_bold"/>
+
+    <ImageView
+            android:id="@+id/tv_tag_item_delete"
+            android:layout_width="20dp"
+            android:layout_toEndOf="@+id/tv_tag_item_contain"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:gravity="center"
+            android:visibility="gone"/>
+</RelativeLayout>
